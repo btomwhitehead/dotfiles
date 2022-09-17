@@ -4,6 +4,7 @@ tap "homebrew/core"
 
 cask "libreoffice"
 cask "vlc"
+brew "firefox"
 
 # Python build dependencies
 brew "openssl@1.1"
