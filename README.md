@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Recursive clone into home directory:
+1. Recursive clone with submodules:
 ```
 git clone --recurse-submodules git@github.com:btomwhitehead/dotfiles.git
 ```
