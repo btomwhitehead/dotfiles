@@ -2,7 +2,7 @@
 
 ## Installation
 
-1. Clone and copy dotfiles into home directory:
+1. Recursive clone into home directory:
 ```
 git clone --recurse-submodules git@github.com:btomwhitehead/dotfiles.git
 ```
@@ -18,6 +18,8 @@ cp -r dotfiles/ ~/
 ```
 brew bundle install
 ```
+
+5. Install vim plugins with: `:PluginInstall`
 
 ## Settings
 
