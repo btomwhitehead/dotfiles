@@ -5,6 +5,13 @@ tap "homebrew/core"
 cask "libreoffice"
 cask "vlc"
 
+# Python build dependencies
+brew "openssl@1.1"
+brew "readline"
+brew "sqlite3"
+brew "xz"
+brew "zlib"
+
 brew "autojump"
 brew "ctags"
 brew "htop"
