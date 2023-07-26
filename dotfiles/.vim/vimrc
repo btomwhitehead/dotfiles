@@ -148,7 +148,12 @@ autocmd! BufNewFile,BufRead *.pde setlocal ft=arduino
 let g:syntastic_python_python_exec = 'python3'
 
 set cursorline
-set tw=80
+" Set default text width, then update specific extensions where it shouldn't apply.
+set textwidth=80
+autocmd bufreadpre *.txt setlocal textwidth=0
+autocmd bufreadpre *.md setlocal textwidth=120
+autocmd bufreadpre *.tf setlocal textwidth=0
+autocmd bufreadpre *.tf setlocal textwidth=80
 
 if $COLORTERM == 'gnome-terminal'
   set t_Co=256

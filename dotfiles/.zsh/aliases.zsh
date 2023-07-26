@@ -1,10 +1,12 @@
 # misc
 alias rsync='rsync -havz --progress'
 alias weather='curl wttr.in'
+alias rstring='openssl rand -base64'
 
 # dev
 alias venv='source venv/bin/activate'
 alias pyclean='find . | grep -E "(__pycache__|\.pyc|\.pyo$)" | xargs rm -rf'
+alias doco='docker compose'
 
 # file management
 alias l='ls -CF'
@@ -31,3 +33,10 @@ alias glp='git log --oneline --decorate --color'
 alias glpg='git log --oneline --graph --decorate --all'
 alias gd='git diff'
 alias gco='git checkout'
+
+# Terraform
+alias tf='terraform'
+alias tfp='terraform plan'
+alias tfa='terraform apply'
+alias tfd='terraform destroy'
+alias tfw='terraform workspace'

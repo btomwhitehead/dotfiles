@@ -5,7 +5,7 @@ tap "homebrew/core"
 cask "iterm2"
 cask "libreoffice"
 cask "vlc"
-brew "firefox"
+cask "brave-browser"
 
 # Python build dependencies
 brew "openssl@1.1"
@@ -30,5 +30,8 @@ brew "vim"
 brew "yq"
 brew "zplug"
 
+# Terraform
 tap "hashicorp/tap"
 brew "hashicorp/tap/terraform"
+brew "terraform-docs"
+brew "tflint"

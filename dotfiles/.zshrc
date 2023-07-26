@@ -5,6 +5,7 @@
 
 # User options
 source ~/.zsh/history.zsh
+source ~/.zsh/ke ybindings.zsh
 source ~/.zsh/aliases.zsh
 
 # Plugin manager
@@ -39,3 +40,13 @@ eval "$(pyenv init --path)"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
+
+# NVM
+export NVM_DIR="$HOME/.nvm"
+[ -s "/opt/homebrew/opt/nvm/nvm.sh" ] && \. "/opt/homebrew/opt/nvm/nvm.sh"  # This loads nvm
+[ -s "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm" ] && \. "/opt/homebrew/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
+
+# OpenBLAS
+export LDFLAGS="-L/opt/homebrew/opt/openblas/lib"
+export CPPFLAGS="-I/opt/homebrew/opt/openblas/include"
+export PKG_CONFIG_PATH="/opt/homebrew/opt/openblas/lib/pkgconfig"
