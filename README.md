@@ -19,7 +19,12 @@ cp -r dotfiles/ ~/
 brew bundle install
 ```
 
-5. Install vim plugins with: `:PluginInstall`
+5. Install `Brewfile.personal` contents:
+```
+brew bundle install --file Brewfile.personal
+```
+
+6. Install vim plugins with: `:PluginInstall`
 
 ## Settings
 

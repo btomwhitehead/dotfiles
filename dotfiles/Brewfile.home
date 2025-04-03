@@ -1,0 +1,7 @@
+# Personal
+cask "calibre"
+cask "transmission"
+cask "lulu"
+cask "midi-monitor"
+cask "arduino-ide"
+cask "creality-print"
