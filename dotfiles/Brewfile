@@ -1,14 +1,10 @@
-tap "homebrew/bundle"
-tap "homebrew/cask"
-tap "homebrew/core"
-
 cask "iterm2"
 cask "libreoffice"
 cask "vlc"
 cask "brave-browser"
 
 # Python and build dependencies
-brew "openssl@1.1"
+brew "openssl"
 brew "readline"
 brew "sqlite3"
 brew "xz"
@@ -20,11 +16,11 @@ brew "autojump"
 brew "git"
 brew "htop"
 brew "jq"
-brew "maccy"
 brew "magic-wormhole"
 brew "neovim"
 brew "node"
 cask "docker"
+cask "maccy"
 
 brew "rsync"
 brew "the_silver_searcher"
