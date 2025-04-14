@@ -5,7 +5,7 @@
 
 # User options
 source ~/.zsh/history.zsh
-source ~/.zsh/ke ybindings.zsh
+source ~/.zsh/keybindings.zsh
 source ~/.zsh/aliases.zsh
 
 # Plugin manager
@@ -36,7 +36,6 @@ export VISUAL=vim
 
 # Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
-eval "$(pyenv init --path)"
 
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /opt/homebrew/bin/terraform terraform
